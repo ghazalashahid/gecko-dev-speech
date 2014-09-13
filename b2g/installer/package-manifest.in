@@ -117,6 +117,7 @@
 @BINPATH@/run-mozilla.sh
 #endif
 #endif
+@BINPATH@/models/
 
 ; [Components]
 @BINPATH@/components/components.manifest
