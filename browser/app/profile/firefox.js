@@ -1825,3 +1825,6 @@ pref("dom.ipc.reportProcessHangs", true);
 
 // Disable reader mode by default.
 pref("reader.parse-on-load.enabled", false);
+// Enable Web Speech recognition API
+pref("media.webspeech.recognition.enable", true);
+pref("media.webspeech.service.default", "pocketsphinx");
