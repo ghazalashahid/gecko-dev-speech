@@ -53,14 +53,14 @@ SpeechGrammar::WrapObject(JSContext* aCx)
 void
 SpeechGrammar::GetSrc(nsString& aRetVal, ErrorResult& aRv) const
 {
-  aRetVal.AssignASCII(mGram);
+  aRetVal = mGram;
   return;
 }
 
 void
 SpeechGrammar::SetSrc(const nsAString& aArg, ErrorResult& aRv)
 {
-  mGram = ToNewUTF8String(aArg);
+  mGram = aArg;
   return;
 }
 
